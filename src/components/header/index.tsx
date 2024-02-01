@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { FiLogOut } from "react-icons/fi";
 import { RxAvatar } from "react-icons/rx";
-import { Input } from "../input";
 
 export function Header () {
     return (
