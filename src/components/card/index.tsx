@@ -7,11 +7,11 @@ type CardProps = {
 
 export function Card(props: CardProps) {
     return (
-        <div className="w-full p-3 h-80 bg-white rounded-lg shadow">
-            <div className="">
-                <h6 className="text-lg font-bold text-gray-600">{props.title}</h6>
+        <div className="card w-full h-80 bg-base-200 shadow-sm">
+            <div className="card-body">
+                <h2 className="card-title">{props.title}</h2>
+                {props.children}
             </div>
-            <div>{props.children}</div>
         </div>
     );
 }

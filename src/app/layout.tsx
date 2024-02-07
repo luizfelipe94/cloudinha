@@ -21,7 +21,7 @@ export default async function RootLayout({
   const session = await getServerAuthSession();
 
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body className={inter.className} suppressHydrationWarning={true}>
         <AuthProvider>
           {session?.user && <Header />}

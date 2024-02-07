@@ -9,7 +9,7 @@ import { TbApi } from "react-icons/tb";
 export default function Console() {
 
   return (
-    <div className="min-h-[calc(100vh-56px)] bg-orange-50">
+    <div className="min-h-[calc(100vh-56px)]">
       <div className="flex flex-col mx-52 gap-8">
         <div className="flex flex-row justify-between mt-10">
           <div className="text-2xl">Hello, Luiz</div>
